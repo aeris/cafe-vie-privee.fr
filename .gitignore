@@ -1,0 +1,8 @@
+.idea/
+/.bundle/
+/.cache/
+/.sass-cache/
+/build/
+*.iml
+/Gemfile.lock
+/Rakefile

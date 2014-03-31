@@ -1,0 +1,27 @@
+//= require 'bootstrap.scss'
+
+@import 'bootstrap/_variables.scss';
+
+body {
+	padding-top: $navbar-height;
+	padding-bottom: $navbar-height;
+}
+
+div.title {
+	margin-top: 20px;
+}
+
+div.full-height {
+	display: table;
+	border-spacing: 19px 5px;
+
+	& > div.row {
+		display: table-row;
+
+		& > div.col, & > div[class*="col-"] {
+			display: table-cell;
+			float:none;
+		}
+	}
+}
+

@@ -1,0 +1,29 @@
+//= require 'bootstrap.scss'
+
+@import 'bootstrap/_variables.scss';
+
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div.full-height {
+	display: table;
+	border-spacing: 19px 0;
+
+	& > div.row {
+		display: table-row;
+
+		& > div[class*="col-"] {
+			display: table-cell;
+			float:none;
+		}
+	}
+}
+
+table {
+	td {
+		vertical-align: middle;
+		padding: 0 5px;
+	}
+}
