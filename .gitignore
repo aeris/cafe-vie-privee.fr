@@ -4,5 +4,6 @@
 /.sass-cache/
 /build/
 *.iml
+/deploy.yaml
 /Gemfile.lock
 /Rakefile

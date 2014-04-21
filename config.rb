@@ -5,14 +5,15 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 configure :build do
-  activate :minify_css
-  activate :minify_javascript
+	activate :minify_css
+	activate :minify_javascript
 end
 
 activate :deploy do |deploy|
-  deploy.method = :rsync
-  deploy.host = 'acoeuro.com'
-  deploy.path = 'prod/chiffro'
-  deploy.port = 443
-  deploy.build_before = true # default: false
+	config = YAML::load_file 'deploy.yaml'
+	deploy.method = config['method']
+	deploy.host = config['host']
+	deploy.path = config['path']
+	deploy.port = config['port']
+	deploy.build_before = config['build_before']
 end
