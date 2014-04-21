@@ -1,6 +1,14 @@
-//= require 'bootstrap.scss'
-
-@import 'bootstrap/_variables.scss';
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
+// Reset and dependencies
+@import 'bootstrap/normalize';
+@import 'bootstrap/print';
+// Core CSS
+@import 'bootstrap/type';
+@import 'bootstrap/grid';
+// Components
+@import 'bootstrap/alerts';
+@import 'bootstrap/wells';
 
 body {
 	padding-top: 20px;

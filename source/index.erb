@@ -5,9 +5,9 @@ layout: home
 	<div class="row">
 		<div class="center-block">
 			<h2>
-				<%= image_tag 'logo-big.png' %>
+				<%= image_tag 'logo-big.png', alt: 'Logo' %>
 				Café Vie Privée
-				<%= image_tag 'logo-big.png' %>
+				<%= image_tag 'logo-big.png', alt: 'Logo' %>
 			</h2>
 		</div>
 	</div>
@@ -30,27 +30,15 @@ layout: home
 			<i>Prochains Cafés Vie Privée</i> :
 			<ul>
 				<li>
-					samedi <b>29 mars</b> 2014, <b>15h-18h</b>, à
-					<b><a href="http://events.numaparis.com/Evenements/Chiffro-fete-3.0">
-						Numa
-					</a></b>
-				</li>
-				<li>
-					samedi <b>12 avril</b> 2014, <b>14h-18h</b>, au
-					<b><a href="/20140412-mokibar.html">
-						Moki Bar
-					</a></b>
-				</li>
-				<li>
-					samedi <b>20 avril</b> 2014, <b>11h-18h</b>, à l'
-					<b><a href="http://openbidouille.net/post/80174131389/obc-4-le-20-avril-inscrivez-vos-ateliers">
-						Open Bidouille Camp #4
-					</a></b>
-				</li>
-				<li>
 					jeudi <b>24 avril</b> 2014, <b>11h-18h</b>, au
 					<b><a href="http://2014.hackitoergosum.org/">
 						Hacker Space Fest
+					</a></b>
+				</li>
+				<li>
+					dimanche <b>25 mai</b> 2014, <b>11h-18h</b>, à l'
+					<b><a href="http://openbidouille.net/post/80174131389/obc-4-le-25-mai-inscrivez-vos-ateliers">
+						Open Bidouille Camp #4
 					</a></b>
 				</li>
 			</ul>
@@ -100,7 +88,7 @@ layout: home
 			<p>
 				Les chiffrofêtes se déroulent généralement le samedi de 15h à 18h, à
 				<a href="http://events.numaparis.com/">
-					<%= image_tag 'numa.png' %>
+					<%= image_tag 'numa.png', alt: 'Numa' %>
 				</a>
 				(#oupa)
 			</p>
@@ -109,29 +97,29 @@ layout: home
 				avec une clef USB pour repartir avec plein de datalove ♥ dessus.
 			</p>
 			<div>
-				Pour vous tenir informer :
+				Pour vous tenir informés :
 				<table>
 					<tr>
 						<td>
-							<%= image_tag 'twitter.png' %>
+							<%= image_tag 'twitter.png', alt: 'Twitter' %>
 							<a href="https://twitter.com/chiffrofete">@chiffrofete</a>
 						</td>
 						<td>
-							<%= image_tag 'email.png' %>
+							<%= image_tag 'email.png', alt: 'Courriel' %>
 							<a href="mailto:chiffrofetes@okhin.fr">chiffrofetes@okhin.fr</a><br/>
 							(GPG:
-							<a href="http://hkps.pool.sks-keyservers.net/pks/lookup?search=0xD0934505630B1D0A&op=vindex">
+							<a href="http://hkps.pool.sks-keyservers.net/pks/lookup?search=0xD0934505630B1D0A&amp;op=vindex">
 								D0934505 630B1D0A
 							</a>)
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<%= image_tag 'ical.png' %>
+							<%= image_tag 'ical.png', alt: 'Calendrier' %>
 							<a href="https://calendar.okhin.fr/public.php/chiffrofetes/calendar/">Calendrier</a>
 						</td>
 						<td>
-							<%= image_tag 'logo.png' %>
+							<%= image_tag 'logo.png', alt: 'Wiki' %>
 							<a href="https://www.cryptoparty.in/paris">https://www.cryptoparty.in/paris</a>
 						</td>
 					</tr>
@@ -141,7 +129,7 @@ layout: home
 			<table>
 				<tr>
 					<td>
-						<%= image_tag 'photo.png' %>
+						<%= image_tag 'photo.png', alt: 'Photos interdites' %>
 					</td>
 					<td>
 						Avant de prendre des photos, merci de demander la permission à tous les pixels avant !
