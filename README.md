@@ -26,3 +26,10 @@ nécessaire de créer un fichier `deploy.yaml` de la forme suivante :
     build_before: [...]
 
 Un fichier d'exemple est fourni avec ce dépôt : `deploy.yaml.example`.
+
+Après avoir lancé le serveur, vous devriez accéder à votre version locale du site en accédant à `http://localhost:4567` 
+comme indiqué dans la console :
+ 
+    == The Middleman is loading
+    == The Middleman is standing watch at http://0.0.0.0:4567
+    == Inspect your site configuration at http://0.0.0.0:4567/__middleman/
