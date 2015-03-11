@@ -11,7 +11,7 @@ Pour l'installer, vous devez disposer d'un environnement Ruby fonctionnel. Si vo
 
     gem install middleman
     
-Si vous utilisez *rvm*, *middleman* devrait être dans votre *path*. 
+Si vous utilisez *rbenv*, *middleman* devrait être dans votre *path*. 
 
 Lancement
 ---------
