@@ -25,7 +25,7 @@ nécessaire de créer un fichier `deploy.yaml` de la forme suivante :
     port: [...]
     build_before: [...]
 
-Un fichier d'exemple est fourni avec ce dépôt : `deploy.yaml.example`.
+Un fichier d'exemple est fourni avec ce dépôt : `deploy.yaml.example`. Pour en savoir plus, [voir la documentation de `middleman-deploy`](https://github.com/middleman-contrib/middleman-deploy).
 
 Après avoir lancé le serveur, vous devriez accéder à votre version locale du site en accédant à `http://localhost:4567` 
 comme indiqué dans la console :
