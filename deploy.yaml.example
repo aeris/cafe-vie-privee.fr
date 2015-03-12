@@ -1,5 +1,5 @@
-method:ssh
-host:127.0.0.1
-path:/tmp
-port:22
-build_before:2015-02-02
+method: rsync
+host: ...
+path: ...
+port: ...
+build_before: true
