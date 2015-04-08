@@ -7,3 +7,5 @@
 /deploy.yaml
 /Gemfile.lock
 /Rakefile
+.directory
+

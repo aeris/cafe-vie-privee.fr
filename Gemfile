@@ -6,7 +6,7 @@ gem 'rake'
 gem 'middleman', '~>3.3.2'
 
 gem 'therubyracer', require: false
-gem 'bootstrap-sass', require: false
+gem 'bootstrap-sass', '3.1.1', require: false
 
 gem 'middleman-livereload'
 gem 'middleman-deploy'
