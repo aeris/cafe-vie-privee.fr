@@ -1,6 +1,5 @@
-//= require 'bootstrap.scss'
-
-@import 'bootstrap/_variables.scss';
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 body {
 	padding-top: $navbar-height;

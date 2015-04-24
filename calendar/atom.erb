@@ -1,0 +1,19 @@
+---
+layout: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Café Vie Privée</title>
+	<subtitle>Chiffrofête / Cryptoparty organisées à Paris et ailleurs</subtitle>
+	<link href="<%%= URI.join config[:site_url], url_for('/') %>"/>
+	<updated><%=  Time.now.strftime '%FT%T%:z' %></updated>
+<%- entries.each do |entry| -%>
+	<entry>
+		<title>Café Vie Privée <%= entry['location']['prefix'] %> <%= entry['location']['place'] %> <%= entry['date']['atom'] %></title>
+		<updated><%= entry['created'].strftime '%FT%T%:z' %></updated>
+		<%- if entry['link'] -%>
+		<link href="<%= entry['link'] %>" />
+		<%- end -%>
+	</entry>
+<%- end -%>
+</feed>

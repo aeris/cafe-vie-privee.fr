@@ -1,0 +1,11 @@
+<i>Prochains Cafés Vie Privée</i> : <%= '<em>à définir</em>' if entries.empty? %>
+<%- unless entries.empty? -%>
+<ul>
+	<%- entries.each do |entry| -%>
+	<li>
+		<%= entry['date']['html'] %>, <%= entry['location']['prefix'] %>
+		<b><%= entry['link'] %></b>
+	</li>
+	<%- end -%>
+</ul>
+<%- end -%>

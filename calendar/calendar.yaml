@@ -1,0 +1,190 @@
+-
+  location:
+    prefix: à
+    place: Numa
+  link: http://events.numaparis.com/Evenements/Chiffro-fete-3.0
+  date:
+    end: 2014-03-29
+    atom: le samedi 29 mars 2014 de 15h à 18h
+    html: le samedi <b>29 mars</b> 2014 <b>de 15h à 18h</b>
+  created: 2014-03-31T23:34:49+02:00
+-
+  location:
+    prefix: au
+    place: Mokibar
+  internal_link: /20140412-mokibar.html
+  date:
+    end: 2014-04-12
+    atom: le samedi 12 avril 2014 de 15h à 18h
+    html: le samedi <b>12 avril</b> 2014 de <b>15h à 18h</b>
+  created: 2014-03-31T23:34:49+02:00
+-
+  location:
+    prefix: au
+    place: Hacker Space Festival
+  link: http://2014.hackitoergosum.org/hsf/
+  date:
+    end: 2014-04-26
+    atom: du jeudi 24 au samedi 26 avril 2014 de 15h à 18h
+    html: du jeudi <b>24</b> au samedi <b>26 avril</b> 2014 <b>de 15h à 18h</b>
+  created: 2014-03-31T23:34:49+02:00
+-
+  location:
+    prefix: à l’
+    place: OpenBidouille Camp
+  link: http://openbidouille.net/post/80174131389/obc-4-le-25-mai-inscrivez-vos-ateliers
+  date:
+    end: 2014-05-25
+    atom: le dimanche 25 mai 2014 de 15h à 18h
+    html: le dimanche <b>25 mai</b> 2014 <b>de 15h à 18h</b>
+  created: 2014-04-21T16:00:00+02:00
+-
+  location:
+    prefix: à l’
+    place: Ubuntu Party
+  link: http://ubuntu-paris.org/programme
+  date:
+    end: 2014-05-25
+    atom: le samedi 24 et dimanche 25 mai 2014 de 11h à 18h
+    html: le samedi <b>24</b> et dimanche <b>25 mai</b> 2014 <b>de 11h à 18h</b>
+  created: 2014-04-30T11:36:00+02:00
+-
+  location:
+    prefix: au
+    place: Poop
+  link: http://poop.leloop.org
+  date:
+    end: 2014-06-15
+    atom: le samedi 14 et dimanche 15 juin 2014 de 11h à 18h
+    html: le samedi <b>14</b> et dimanche <b>15 juin</b> 2014 <b>de 11h à 18h</b>
+  created: 2014-05-26T00:00:00+02:00
+-
+  location:
+    prefix: à
+    place: Pas Sage en Seine
+  link: http://www.passageenseine.org/
+  date:
+    end: 2014-06-29
+    atom: du jeudi 26 au dimanche 29 juin 2014 de 11h à 18h
+    html: du jeudi <b>26</b> au dimanche <b>29 juin</b> 2014 <b>de 11h à 18h</b>
+  created: 2014-05-26T00:00:00+02:00
+-
+  location:
+    prefix: à
+    place: la Bellevilloise
+  link: http://www.labellevilloise.com/2014/06/la-prairie-des-hackers/
+  date:
+    end: 2014-09-03
+    atom: le mercredi 3 septembre 2014 à partir de 18h
+    html: le mercredi <b>3 septembre</b> 2014 <b>à partir de 18h</b>
+  created: 2014-08-05T00:00:00+02:00
+-
+  location:
+    prefix: chez
+    place: Mozilla Paris
+  link: https://events.mozspaces.org/e/403/20141018130000/chiffrofete
+  date:
+    end: 2014-10-18
+    atom: le samedi 18 octobre 2014 à partir de 13h
+    html: le samedi <b>18 octobre</b> 2014 <b>à partir de 13h</b>
+  created: 2014-10-17T00:00:00+02:00
+-
+  location:
+    prefix: à l’
+    place: Ubuntu Party
+  link: http://ubuntu-paris.org/
+  date:
+    end: 2014-11-16
+    atom: du samedi 15 au dimanche 16 novembre 2014 de 11h à 18h
+    html: du samedi <b>15</b> au dimanche <b>16 novembre</b> 2014 <b>de 11h à 18h</b>
+  created: 2014-10-17T00:00:00+02:00
+-
+  location:
+    prefix: à
+    place: Numa
+  link: http://events.numa.paris/Evenements/CHIFFROFETE-3.02
+  date:
+    end: 2015-02-21
+    atom: le samedi 21 février 2015 de 14h à 18h
+    html: le samedi <b>21 février</b> 2015 <b>de 14h à 18h</b>
+  created: 2015-02-11T00:08:00+02:00
+-
+  location:
+    prefix: au
+    place: Dernier Bar avant la Fin du Monde
+  link: https://list.cryptofribourg.ch/t/chiffrofete-special-le-samedi-28-fevrier-au-dernier-bar-avant-la-fin-du-monde-paris/224
+  date:
+    end: 2015-02-28
+    atom: le samedi 28 février 2015 de 14h à 18h
+    html: le samedi <b>28 février</b> 2015 <b>de 14h à 18h</b>
+  created: 2015-02-11T00:08:00+02:00
+-
+  location:
+    prefix: chez
+    place: Mozilla Paris
+  link: https://reps.mozilla.org/e/cafe-vie-privee/
+  date:
+    end: 2015-03-14
+    atom: le samedi 14 mars 2015 de 14h à 18h
+    html: le samedi <b>14 mars</b> 2015 <b>de 14h à 18h</b>
+  created: 2015-03-11T00:00:00+02:00
+-
+  location:
+    prefix: à l’
+    place: Assemblée Nationale
+  link: http://www.assemblee-nationale.fr/
+  date:
+    end: 2015-04-15
+    atom: le mercredi 15 avril 2015 de 15h à 18h
+    html: le mercredi <b>15 avril</b> 2015 <b>de 15h à 18h</b>
+  created: 2015-04-09T00:00:00+01:00
+-
+  location:
+    prefix: à l’
+    place: Ubuntu Party
+  link: http://ubuntu-paris.org/
+  date:
+    end: 2015-05-31
+    atom: du samedi 30 au dimanche 31 mai 2015 de 11h à 18h
+    html: du samedi <b>30</b> au dimanche <b>31 mai</b> 2015 <b>de 11h à 18h</b>
+  created: 2015-04-24T22:19:00+02:00
+-
+  location:
+    prefix: au
+    place: Loop
+  link: https://leloop.org/
+  date:
+    end: 2015-04-27
+    atom: le lundi 27 avril 2015 à partir de 18h
+    html: le lundi <b>27 avril</b> 2015 <b>à partir de 18h</b>
+  created: 2015-04-24T22:19:00+02:00
+-
+  location:
+    prefix: à
+    place: Geekopolis
+  link: http://www.geekopolis.fr/
+  date:
+    end: 2015-05-24
+    atom: du samedi 23 au dimanche 24 mai 2015 de 9h30 à 19h
+    html: du samedi <b>23</b> au dimanche <b>24 mai</b> 2015 <b>de 9h30 à 19h</b>
+  created: 2015-04-24T22:19:00+02:00
+-
+  location:
+    prefix: à
+    place: Pas Sage en Seine
+  link: http://www.passageenseine.org/
+  date:
+    end: 2015-06-21
+    atom: du jeudi 18 au dimanche 21 juin 2015 de 11h à minuit
+    html: du jeudi <b>18</b> au dimanche <b>21 juin</b> 2015 <b>à partir de 11h</b>
+  created: 2015-04-24T22:19:00+02:00
+-
+  location:
+    prefix: à
+    place: Simplon
+  link: http://www.agendadulibre.org/events/9592
+  date:
+    end: 2015-04-25
+    atom: le samedi 25 avril 2015 de 14h à 18h
+    html: le samedi <b>25 avril</b> 2015 <b>de 14h à 18h</b>
+  created: 2015-04-24T22:19:00+02:00

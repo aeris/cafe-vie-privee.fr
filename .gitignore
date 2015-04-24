@@ -6,6 +6,6 @@
 *.iml
 /deploy.yaml
 /Gemfile.lock
-/Rakefile
 .directory
-
+/source/_calendar.erb
+/source/atom.xml.erb
