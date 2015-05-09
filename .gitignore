@@ -9,3 +9,4 @@
 .directory
 /source/_calendar.erb
 /source/atom.xml.erb
+/source/calendar.ics.erb

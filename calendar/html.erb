@@ -3,8 +3,8 @@
 <ul>
 	<%- entries.each do |entry| -%>
 	<li>
-		<%= entry['date']['html'] %>, <%= entry['location']['prefix'] %>
-		<b><%= entry['link'] %></b>
+		<%= entry.date %>,
+		<%= entry.location %>
 	</li>
 	<%- end -%>
 </ul>
