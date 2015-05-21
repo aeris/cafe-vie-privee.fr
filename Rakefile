@@ -27,10 +27,18 @@ end
 
 task :calendar do
 	DAYS = %w(dimanche lundi mardi mercredi jeudi vendredi samedi)
-	MONTHES = %w(janvier février mars avril mai juin juillet août septembre octobre novembre décembre)
+	MONTHES = %w(NONE janvier février mars avril mai juin juillet août septembre octobre novembre décembre)
 
 	ENTRIES = {ics: [], atom: [], html: []}
-	YAML.load(File.read 'calendar/calendar.yaml').sort! { |a, b| a['date']['end'] <=> b['date']['end'] }.each do |entry|
+	YAML.load(File.read 'calendar/calendar.yaml').sort! do |a, b|
+		a_day = a['date']['day']
+		a_day = a_day['from'] if a_day.is_a? Hash
+
+		b_day = b['date']['day']
+		b_day = b_day['from'] if b_day.is_a? Hash
+		
+		a_day <=> b_day
+	end.each do |entry|
 		day = entry['date']['day']
 		case day
 			when Date
