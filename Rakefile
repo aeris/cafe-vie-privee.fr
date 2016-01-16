@@ -2,6 +2,8 @@ require 'yaml'
 require 'erb'
 require 'ostruct'
 require 'digest'
+require 'icalendar'
+require 'atom'
 
 task default: %i(calendar deploy)
 
@@ -36,7 +38,7 @@ task :calendar do
 
 		b_day = b['date']['day']
 		b_day = b_day['from'] if b_day.is_a? Hash
-		
+
 		a_day <=> b_day
 	end.each do |entry|
 		day = entry['date']['day']
@@ -70,7 +72,7 @@ task :calendar do
 
 		ENTRIES[:atom] << OpenStruct.new(location: '%s %s' % [entry['location']['prefix'], entry['location']['place']],
 										 date: atom, created: entry['created'],
-										 link: link ? link : "<%= URI.join config[:site_url], url_for('#{internal_link}') \%\>")
+										 link: link ? link : "https://xn--caf-vie-prive-dhbj.fr#{internal_link}")
 		if day[:to] >= Date.today
 			link = internal_link || link
 			location = '%s %s' % [entry['location']['prefix'],
@@ -83,16 +85,47 @@ task :calendar do
 			to = hour[:to] ? day.to_time + hour[:to] : day + 1
 			ENTRIES[:ics] << OpenStruct.new(uid: Digest::SHA256.base64digest("#{entry['location']['place']}#{from}#{to}"),
 											start: from, end: to, created: entry['created'], location: entry['location']['place'],
-											link: link ? link : "<%= URI.join config[:site_url], url_for('#{internal_link}') \%\>")
+											link: link ? link : "https://xn--caf-vie-prive-dhbj.fr#{internal_link}")
 		end
 	end
 
 	entries = ENTRIES[:atom]
-	File.write 'source/atom.xml.erb', ERB.new(File.read('calendar/atom.erb'), nil, '-').result(binding)
+	#File.write 'source/atom.xml.erb', ERB.new(File.read('calendar/atom.erb'), nil, '-').result(binding)
+	atom = Atom::Feed.new do |f|
+		f.title = 'Café Vie Privé'
+		f.subtitle = 'Chiffrofêtes / Cafés Vie Privée organisés à Paris et ailleurs'
+		f.links << Atom::Link.new(href: 'https://xn--caf-vie-prive-dhbj.fr/atom.xml', rel: :self, type: 'application/atom+xml')
+		f.authors << Atom::Person.new(name: 'Café Vie Privée')
+		f.updated = Time.now
+		f.id = 'urn:uuid:94de6d66-bc47-11e5-aa86-5bda2d727dba'
+
+		f.entries =  entries.reverse.collect do |entry|
+			Atom::Entry.new do |e|
+				e.title = "Café Vie Privée #{entry.location} #{entry.date}"
+				e.id = "urn:sha1:#{Digest::SHA1.hexdigest e.title}"
+				e.summary = e.title
+				e.links << Atom::Link.new(href: entry.link) if entry.link
+				e.updated = entry.created
+			end
+		end
+	end
+	File.write 'source/atom.xml', atom.to_xml
 
 	entries = ENTRIES[:html]
 	File.write 'source/_calendar.erb', ERB.new(File.read('calendar/html.erb'), nil, '-').result(binding)
 
 	entries = ENTRIES[:ics]
-	File.write 'source/calendar.ics.erb', ERB.new(File.read('calendar/ics.erb'), nil, '-').result(binding)
+	cal = Icalendar::Calendar.new
+	entries.each do |entry|
+		cal.event do |e|
+			e.uid = entry.uid
+			e.created = entry.created
+			e.dtstart = entry.start
+			e.dtend   = entry.end #Icalendar::Values::Date.new('20050429')
+			e.summary = 'Café Vie Privée'
+			e.location = entry.location
+			(e.url = entry.link) if entry.link
+		end
+	end
+	File.write 'source/calendar.ics', cal.to_ical
 end

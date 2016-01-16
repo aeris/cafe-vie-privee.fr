@@ -11,3 +11,6 @@ gem 'middleman-deploy'
 
 gem 'wdm', platforms: %i(mswin mingw), require: false
 gem 'tzinfo-data', platforms: %i(mswin mingw), require: false
+
+gem 'icalendar'
+gem 'ratom'

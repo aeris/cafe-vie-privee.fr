@@ -8,5 +8,5 @@
 /Gemfile.lock
 .directory
 /source/_calendar.erb
-/source/atom.xml.erb
-/source/calendar.ics.erb
+/source/atom.xml
+/source/calendar.ics

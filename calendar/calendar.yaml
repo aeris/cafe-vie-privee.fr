@@ -19,7 +19,7 @@
     hour:
       from: 15:00
       to: 18:00
-  created: 2014-03-31T23:34:49+02:00
+  created: 2014-03-31T23:34:50+02:00
 -
   location:
     prefix: au
@@ -32,7 +32,7 @@
     hour:
       from: 15:00
       to: 18:00
-  created: 2014-03-31T23:34:49+02:00
+  created: 2014-03-31T23:34:51+02:00
 -
   location:
     prefix: à l’
@@ -82,7 +82,7 @@
     hour:
       from: 11:00
       to: 18:00
-  created: 2014-05-26T00:00:00+02:00
+  created: 2014-05-26T00:00:01+02:00
 -
   location:
     prefix: à
@@ -113,7 +113,7 @@
     hour:
       from: 11:00
       to: 18:00
-  created: 2014-10-17T00:00:00+02:00
+  created: 2014-10-17T00:00:01+02:00
 -
   location:
     prefix: à
@@ -135,7 +135,7 @@
     hour:
       from: 14:00
       to: 18:00
-  created: 2015-02-11T00:08:00+02:00
+  created: 2015-02-11T00:08:01+02:00
 -
   location:
     prefix: chez
@@ -179,7 +179,7 @@
   date:
     day: 2015-04-27
     hour: 18:00
-  created: 2015-04-24T22:19:00+02:00
+  created: 2015-04-24T22:19:01+02:00
 -
   location:
     prefix: à
@@ -192,7 +192,7 @@
     hour:
       from: 09:30
       to: 19:00
-  created: 2015-04-24T22:19:00+02:00
+  created: 2015-04-24T22:19:02+02:00
 -
   location:
     prefix: à
@@ -203,7 +203,7 @@
       from: 2015-06-18
       to: 2015-06-21
     hour: 11:00
-  created: 2015-04-24T22:19:00+02:00
+  created: 2015-04-24T22:19:03+02:00
 -
   location:
     prefix: à
@@ -214,7 +214,7 @@
     hour:
       from: 14:00
       to: 18:00
-  created: 2015-04-24T22:19:00+02:00
+  created: 2015-04-24T22:19:04+02:00
 -
   location:
     prefix: au
@@ -236,4 +236,117 @@
     hour:
       from: 14:00
       to: 18:00
-  created: 2015-05-08T14:09:00+02:00
+  created: 2015-05-08T14:09:01+02:00
+-
+  location:
+    prefix:
+    place: à l’étage, chez quelqu’un
+  link: http://kanasadi.blogspot.fr/p/programme.html
+  date:
+    day: 2015-06-16
+    hour: 18:30
+  created: 2015-06-12T20:47:00+02:00
+-
+  location:
+    prefix: au
+    place: Dernier Bar avant la Fin du Monde
+  link: http://www.agendadulibre.org/events/9809
+  date:
+    day: 2015-07-18
+    hour:
+      from: 14:00
+      to: 18:00
+  created: 2015-07-14T15:34:00+02:00
+-
+  location:
+    prefix: à l’
+    place: Atelier Numérique de Versailles
+  link: http://culture.versailles.fr/atelier-numerique/atelier-numerique/
+  date:
+    day: 2015-10-17
+    hour:
+      from: 14:00
+      to: 18:00
+  created: 2015-07-14T15:34:01+02:00
+-
+  location:
+    place: De l'autre côté du pont
+  link: http://lyon.onvasortir.com/sortie_read_new.php?Vac=&amp;Id=4215001
+  date:
+    day: 2015-09-21
+    hour: 19:00
+  created: 2015-09-17T10:17:36
+-
+  location:
+    prefix: au
+    place: Festival Alternatiba
+  link: https://alternatiba.eu/paris/le-festival-alternatiba/le-programme-du-dimanche-27-septembre/
+  date:
+    day: 2015-09-27
+    hour:
+      from: 10:00
+      to: 18:00
+  created: 2015-09-18T10:04:00
+-
+  location:
+    prefix: aux
+    place: Fabriques du Ponant
+  link: http://wiki.a-brest.net/index.php/Crypto-Chiffro-Party-Fête
+  date:
+    day: 2015-10-10
+    hour:
+      from: 10:00
+      to: 20:00
+  created: 2015-09-22T11:12:00
+-
+  location:
+    place: De l'autre côté du pont
+  link: http://lyon.onvasortir.com/je-vous-espionne-4243461.html
+  date:
+    day: 2015-10-05
+    hour: 19:00
+  created: 2015-10-02T10:32:00
+-
+  location:
+    prefix: au
+    place: Trappiste
+  link: http://www.openstreetmap.org/node/676860118
+  date:
+    day: 2015-11-14
+    hour: 13:42
+  created: 2015-11-11T10:34:00+02:00
+-
+  location:
+    prefix: à l’
+    place: Ubuntu Party
+  link: http://ubuntu-paris.org/programme
+  date:
+    day:
+      from: 2015-11-28
+      to: 2015-11-29
+    hour:
+      from: 11:00
+      to: 18:00
+  created: 2015-11-25T20:28:00+02:00
+-
+  location:
+    prefix: à l’
+    place: Espace Public Numérique des Rancy
+  link: http://epn.salledesrancy.com/les-jeudis-du-%20%20numeriques/jeudis-vie-privee/
+  date:
+    day: 2015-12-03
+    hour:
+      from: 19:00
+      to: 21:30
+  created: 2015-11-25T20:28:01+02:00
+-
+  location:
+    prefix: à
+    place: la Lingerie
+  link: http://lesgrandsvoisins.org/la-lingerie/
+  date:
+    day: 2015-12-19
+    hour:
+      from: 14:00
+      to: 18:00
+  created: 2015-12-03T23:10:00+02:00
