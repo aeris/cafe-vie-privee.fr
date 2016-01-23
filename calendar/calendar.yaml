@@ -350,3 +350,14 @@
       from: 14:00
       to: 18:00
   created: 2015-12-03T23:10:00+02:00
+-
+  location:
+    prefix: à
+    place: la Maison pour tous
+  link: http://www.aldil.org/events/atelier-vie-privee-4/view
+  date:
+    day: 2016-01-30
+    hour:
+      from: 16:00
+      to: 18:00
+  created: 2016-01-23T22:44:00+02:00
