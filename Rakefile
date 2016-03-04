@@ -90,7 +90,6 @@ task :calendar do
 	end
 
 	entries = ENTRIES[:atom]
-	#File.write 'source/atom.xml.erb', ERB.new(File.read('calendar/atom.erb'), nil, '-').result(binding)
 	atom = Atom::Feed.new do |f|
 		f.title = 'Café Vie Privé'
 		f.subtitle = 'Chiffrofêtes / Cafés Vie Privée organisés à Paris et ailleurs'

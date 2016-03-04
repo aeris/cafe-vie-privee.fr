@@ -17,4 +17,5 @@ activate :deploy do |deploy|
 	deploy.path = config['path']
 	deploy.port = config['port']
 	deploy.build_before = config['build_before']
+	deploy.flags = config['flags']
 end
