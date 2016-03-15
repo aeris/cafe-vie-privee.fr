@@ -3,261 +3,339 @@ layout: false
 ---
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>Cryptoparty</title>
-	<%= favicon_tag 'images/favicon.png' %>
-	<%= stylesheet_link_tag 'main' %>
-</head>
-<body data-spy="scroll" data-target="#navbar">
-<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
-	<div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed"
-					data-toggle="collapse"
-					data-target="#bs-example-navbar-collapse-1"
-					aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand hidden-xs" href="#">Café vie privée /
-				Chiffrofête / Cryptoparty</a>
-			<a class="navbar-brand visible-xs-block" href="#">Chiffrofête</a>
-		</div>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Cryptoparty</title>
+		<%= favicon_tag 'images/favicon.png' %>
+		<%= stylesheet_link_tag 'main' %>
+	</head>
+	<body data-spy="scroll" data-target="#navbar">
+		<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed"
+							data-toggle="collapse"
+							data-target="#bs-example-navbar-collapse-1"
+							aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand hidden-xs" href="#">
+						Café vie privée / Chiffrofête / Cryptoparty
+					</a>
+					<a class="navbar-brand visible-xs-block" href="#">
+						Chiffrofête
+					</a>
+				</div>
 
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#intro">Intro</a></li>
-				<li><a href="#qui">Qui sommes-nous&nbsp;?</a></li>
-				<li><a href="#quoi">Que faisons-nous&nbsp;?</a></li>
-				<li><a href="#comment">Infos pratiques</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</div><!-- /.navbar-collapse -->
-	</div><!-- /.container-fluid -->
-</nav>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#intro">
+								Intro
+							</a>
+						</li>
+						<li>
+							<a href="#qui">
+								Qui sommes-nous ?
+							</a>
+						</li>
+						<li>
+							<a href="#quoi">
+								Que faisons-nous ?
+							</a>
+						</li>
+						<li>
+							<a href="#comment">
+								Infos pratiques
+							</a>
+						</li>
+						<li>
+							<a href="#contact">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
 
-<div class="container-fluid">
-
-	<!-- Intro -->
-	<div id="intro" class="row">
-		<div class="text-center col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-			<h1>
-				<%= image_tag 'logo-big.png', alt: 'Logo' %>
-				&nbsp;Bienvenue&nbsp;
-				<%= image_tag 'logo-big.png', alt: 'Logo' %>
-			</h1>
-			<p class="lead">Vous êtes sur le site de <strong>café vie
-				privée</strong> aussi appelé <strong>Cryptoparty</strong> ou
-				<strong>chiffrofête</strong>.</p>
-			<p class="lead">Venez passer un après-midi à causer et pratiquer la
-				cryptographie&nbsp;!<br>
-				Des ateliers vous sont proposés, pour vous donner des conseils
-				en sécurité informatique et en protection de la vie privée sur
-				votre ordinateur et/ou votre smartphone.<br>
-				Les ateliers sont gratuits, accessibles à tous et toutes peut
-				importe votre niveau en informatique.
-			</p>
-			<p class="lead">Amenez à boire et à manger si vous le voulez/pouvez,
-				on chiffre mieux le ventre plein&nbsp;!<br>
-				N'oubliez pas votre ordinateur portable ou votre smartphone pour
-				appliquer nos conseils.
-			</p>
-			<p class="lead">
-				<strong>Pour voir les prochains évènements, allez dans la
-					section <a href="#comment">"Où, Quand&nbsp;?"</a></strong>
-			</p>
-		</div>
-	</div>
-
-
-	<!-- Quisommesnous -->
-	<div id="qui" class="row">
-		<div class="panel panel-default col-sm-10 col-sm-offset-2 col-md-7 col-md-offset-5 col-lg-6 text-justify">
-			<h1 class="text-left">Qui sommes nous&nbsp;?</h1>
-			<p class="lead">Nous appartenons à un mouvement citoyen mondial
-				décentralisé. Nous organisons des évènements sur Paris et sa
-				banlieue proche.
-			</p>
-			<p class="lead">
-				Le terme de cryptoparty peut être francisé sous le terme de
-				chiffrofête qui se veut une traduction moins connotée de ce
-				terme. Ce type d’évènement est également appelé les Cafés vie
-				privée.
-			</p>
-			<p class="lead">
-				Les outils techniques qui permettent de conserver une vie privée
-				sur Internet où nous sommes constamment espionnés et surveillés
-				(par les publicités, les réseaux sociaux, les gouvernements…) ne
-				doivent pas être l’apanage d’une petite poignée de gens plus
-				habiles que les autres avec l’informatique.<br>
-				Chacun est en droit de s’approprier, à la hauteur de son niveau
-				de compréhension, de ses besoins, de ses envies, ses différents
-				outils.<br>
-				Les chiffrofêtes sont donc des événements dédiés à
-				l’apprentissage de la sécurité des communications en
-				environnement numérique (Internet, mais également téléphoniques
-				(SMS)).
-			</p>
-			<p class="lead">
-				<strong>Le maitre mot étant la pédagogie.</strong>
-			</p>
-		</div>
-	</div>
-
-	<!-- what -->
-	<div id="quoi" class="row">
-		<div class="panel panel-default col-sm-10 col-md-7 col-lg-6 col-lg-offset-1 text-justify">
-			<h1 class="text-left">Que faisons nous&nbsp;?</h1>
-			<p class="lead">Plusieurs ateliers peuvent s'organiser selon la
-				volonté des participants et les connaissances des organisateurs.
-			</p>
-			<p class="lead">
-				La liste suivante des ateliers est non exhaustive.
-			</p>
-			<ul class="lead">
-				<li><strong>Chat OTR</strong> : “off the record”</li>
-				<li><strong>Navigation internet via TOR</strong> : Présentation
-					de Tor, Utilisation via le Tor Browser bundle et/ou le
-					live-cd Tails
-				</li>
-				<li><strong>Chriffrement de fichiers avec TrueCrypt</strong> :
-					Présentation, Création d’un conteneur chiffré, Utilisation
-					avancée (Conteneur caché)
-				</li>
-				<li><strong>Chiffrement d'email avec GPG</strong> : Thunderbird
-					et Enigmail, création et gestion des clefs, réseau de
-					confiance…
-				</li>
-				<li><strong>Le tracking sur Internet</strong> : utilisation
-					d’extensions pour Firefox
-				</li>
-				<li><strong>Crypto avancée</strong> : Installation et
-					configuration d’un serveur de fichiers chiffré et distribué
-					(TAHOE-LAFS, Luks et autres), mailling-listes chiffrées sur
-					serveurs chiffrés.
-				</li>
-			</ul>
-		</div>
-	</div>
-
-	<!-- Comment -->
-	<div id="comment" class="row">
-		<div class="panel panel-default col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0 col-lg-3 col-lg-offset-1 text-center">
-			<h1>Où, Quand&nbsp;?</h1>
-			<p class="lead">Une cryptoparty peut s'organiser dans nimporte quel
-				lieu public.<br>
-				Nous en organisons régulièrement sur Paris mais il y en à
-				partout en <a href="https://www.cryptoparty.in/location#france">France</a>
-				et dans le <a
-						href="https://www.cryptoparty.in/parties/upcoming">monde</a>
-			</p>
-			<p class="lead hidden">La prochaine session n'est pas encore
-				définie.</p>
-			<p class="lead"><em>Prochains Cafés Vie Privée&nbsp;:</em>
-			</p>
-			<p class="lead">
-				le <strong>samedi 23 avril</strong> 2016 de
-				<strong>14:00</strong> à <strong>19:00</strong>, à l’<a
-					href="http://culture.versailles.fr/atelier-numerique/atelier-numerique/"
-					title="Le site de l'atelier numérique">Atelier Numérique de
-				Versailles</a></p>
-		</div>
-
-		<div class="panel panel-default col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-1 col-lg-6 text-justify">
-			<%= partial 'calendar' %>
-			<p class="lead"> En attendant, vous pouvez toujours visiter ces
-				sites en Francais qui vous aiderons et donnerons des pistes pour
-				mieux protéger votre vie privée et sécuriser vos appareils
-				connectés:</p>
-			<ul class="lead">
-				<li><a href="https://donottrack-doc.com/fr/">Do Not Track</a>
-					est une série documentaire personnalisée consacrée à la vie
-					privée et à l'économie du Web.
-				</li>
-				<li><a href="https://ssd.eff.org/fr">Autoprotection Digitale
-					Contre la Surveillance.</a> Astuces, Outils et Guides
-					Pratiques pour des Communications En Ligne Plus Sécurisées
-				</li>
-				<li><a href="https://www.controle-tes-donnees.net/ ">Reprennez
-					le contrôle de vos données</a></li>
-				<li><a href="https://degooglisons-internet.org/">Dégooglisons
-					Internet avec Framasoft</a>
-				</li>
-			</ul>
-			<p class="lead">Aidez nous à compléter la liste et envoyez nous vos
-				liens !</p>
-			<h2 class="text-left">Documents de sensibilisation</h2>
-			<ul class="lead">
-				<li><a href="https://youtu.be/fDPpzG6u-as">Rien à
-					cacher&nbsp;?</a></li>
-				<li><a href="https://www.youtube.com/watch?v=fzzfxmKBz2g">Fate
-					of the INTERNET</a></li>
-				<li><a href="http://datalove.fr/">Le principe du Datalove</a>
-				</li>
-				<li>
-					<a href="http://www.arte.tv/guide/fr/062446-000-A/ils-savent-tout-de-nous?autoplay=1">Ils
-						savent tout de nous </a></li>
-			</ul>
-		</div>
-	</div>
-
-	<!-- Contact -->
-	<div id="contact" class="row">
-		<div class=" col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
-			<h1>Contactez-nous</h1>
-			<p class="lead">N'hésitez pas à prendre contact avec nous pour
-				toutes questions (techniques ou pas) ou demandes
-				d'organisation.</p>
-		</div>
-
-		<div class="panel panel-default col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
-			<div class="col-sm-6">
-
-				<p class="lead">
-					<%= image_tag 'twitter.png', alt: 'Twitter' %>&nbsp;Suivez
-					<a href="https://twitter.com/chiffrofete">@chiffrofete</a>
-					sur Twitter<br>
-					<a href="https://twitter.com/hashtag/Chiffrof%C3%AAte?src=hash">#Chiffrofete</a>
-					&nbsp;//&nbsp;
-					<a href="https://twitter.com/hashtag/cryptoparty?src=hash">#Cryptoparty</a>
-					&nbsp;//&nbsp;
-					<a href="https://twitter.com/hashtag/cafevieprivee?src=hash">#CaféViePrivée</a>
-				</p>
-
-				<p class="lead">
-					<%= image_tag 'ical.png', alt: 'Calendrier' %>&nbsp;Mettez-nous dans votre
-					<a href="/calendar.ics">calendrier</a>
-				</p>
-
+		<div class="container-fluid">
+			<!-- Intro -->
+			<div id="intro" class="row">
+				<div class="text-center col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+					<h1>
+						<%= image_tag 'logo-big.png', alt: 'Logo' %>
+						Bienvenue
+						<%= image_tag 'logo-big.png', alt: 'Logo' %>
+					</h1>
+					<p class="lead">
+						Vous êtes sur le site de
+						<strong>Café Vie Privée</strong> aussi appelé
+						<strong>Cryptoparty</strong> ou
+						<strong>Chiffrofête</strong>.
+					</p>
+					<p class="lead">
+						Venez passer un après-midi à causer et pratiquer la
+						cryptographie !
+						<br/>
+						Des ateliers vous sont proposés, pour vous donner des
+						conseils en sécurité informatique et en protection de la
+						vie privée sur votre ordinateur ou votre smartphone.
+						<br/>
+						Les ateliers sont gratuits, accessibles à tous et toutes
+						peu importe votre niveau en informatique.
+					</p>
+					<p class="lead">
+						Amenez à boire et à manger si vous le voulez/pouvez, on
+						chiffre mieux le ventre plein !
+						<br/>
+						N’oubliez pas votre ordinateur portable ou votre
+						smartphone pour appliquer nos conseils.
+					</p>
+					<p class="lead">
+						<strong>
+							Pour voir les prochains événements, allez dans la
+							section <a href="#comment">« Où, Quand ? »</a>
+						</strong>
+					</p>
+				</div>
 			</div>
 
-			<div class="col-sm-6">
+			<!-- Quisommesnous -->
+			<div id="qui" class="row">
+				<div class="panel panel-default col-sm-10 col-sm-offset-2 col-md-7 col-md-offset-5 col-lg-6 text-justify">
+					<h1 class="text-left">
+						Qui sommes nous ?
+					</h1>
+					<p class="lead">
+						Nous appartenons à un mouvement citoyen mondial
+						décentralisé. Nous organisons des événements sur Paris
+						et sa banlieue proche.
+					</p>
+					<p class="lead">
+						Le terme de cryptoparty peut être francisé sous le terme
+						de chiffrofête qui se veut une traduction moins connotée
+						de ce terme. Ce type d’événement est également appelé
+						les cafés vie privée.
+					</p>
+					<p class="lead">
+						Les outils techniques qui permettent de conserver une
+						vie privée sur Internet où nous sommes constamment
+						espionnés et surveillés (par les publicités, les réseaux
+						sociaux, les gouvernements…) ne doivent pas être
+						l’apanage d’une petite poignée de gens plus habiles que
+						les autres avec l’informatique.
+						<br/>
+						Chacun est en droit de s’approprier, à la hauteur de son
+						niveau de compréhension, de ses besoins, de ses envies,
+						ses différents outils.
+						<br/>
+						Les chiffrofêtes sont donc des événements dédiés à
+						l’apprentissage de la sécurité des communications en
+						environnement numérique (Internet, mais également
+						téléphoniques (SMS)).
+					</p>
+					<p class="lead">
+						<strong>Le maître-mot étant la pédagogie.</strong>
+					</p>
+				</div>
+			</div>
 
-				<p class="lead">
-					<%= image_tag 'email.png', alt: 'Email' %>&nbsp;Envoyez un mail à
-					<a href="mailto:contact@chiffrofete.fr">contact@chiffrofete.fr</a><br>
-					(GPG: <a href="/key.asc">87F87B18 10FE3C50</a>)
-				</p>
+			<!-- what -->
+			<div id="quoi" class="row">
+				<div class="panel panel-default col-sm-10 col-md-7 col-lg-6 col-lg-offset-1 text-justify">
+					<h1 class="text-left">
+						Que faisons nous ?
+					</h1>
+					<p class="lead">
+						Plusieurs ateliers peuvent s’organiser selon la volonté
+						des participants et les connaissances des organisateurs.
+					</p>
+					<p class="lead">
+						La liste suivante des ateliers est non exhaustive.
+					</p>
+					<ul class="lead">
+						<li>
+							<strong>Chat OTR</strong> : « off the record »
+						</li>
+						<li>
+							<strong>Navigation internet via TOR</strong> :
+							présentation de Tor, utilisation via le Tor Browser
+							ou le live-cd Tails
+						</li>
+						<li>
+							<strong>Chriffrement de fichiers avec TrueCrypt</strong> :
+							Présentation, création d’un conteneur chiffré,
+							utilisation avancée (conteneur caché)
+						</li>
+						<li>
+							<strong>Chiffrement d’email avec GPG</strong> :
+							Thunderbird et Enigmail, création et gestion des
+							clefs, réseau de confiance…
+						</li>
+						<li>
+							<strong>Le tracking sur Internet</strong> :
+							utilisation d’extensions pour Firefox
+						</li>
+						<li>
+							<strong>Crypto avancée</strong> :
+							installation et configuration d’un serveur de
+							fichiers chiffré et distribué (TAHOE-LAFS, Luks et
+							autres), mailling-listes chiffrées sur serveurs
+							chiffrés.
+						</li>
+					</ul>
+				</div>
+			</div>
 
-				<p class="lead">
-					<%= image_tag 'logo.png', alt: 'Email' %>&nbsp;Checkez le wiki
-					des
-					<a href="https://www.cryptoparty.in/paris"
-					   title="Le wiki des cryptoparty">Cryptoparty Paris</a>
-				</p>
+			<!-- Comment -->
+			<div id="comment" class="row">
+				<div class="panel panel-default col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0 col-lg-3 col-lg-offset-1 text-center">
+					<h1>
+						Où, Quand ?
+					</h1>
+					<p class="lead">
+						Une cryptoparty peut s’organiser dans n’importe quel
+						lieu public.
+						<br/>
+						Nous en organisons régulièrement sur Paris, mais il y en
+						a partout en
+						<a href="https://www.cryptoparty.in/location#france">France</a>
+						et dans le
+						<a href="https://www.cryptoparty.in/parties/upcoming">monde</a>
+					</p>
+					<%= partial 'calendar' %>
+				</div>
 
+				<div class="panel panel-default col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-1 col-lg-6 text-justify">
+					<h1 class="text-left">
+						Plus d’infos
+					</h1>
+					<p class="lead">
+						En attendant, vous pouvez toujours visiter ces sites en
+						français qui vous aiderons et donnerons des pistes pour
+						mieux protéger votre vie privée et sécuriser vos
+						appareils connectés :
+					</p>
+					<ul class="lead">
+						<li>
+							<a href="https://donottrack-doc.com/fr/">
+								Do Not Track
+							</a>
+							est une série documentaire personnalisée consacrée à
+							la vie privée et à l’économie du Web.
+						</li>
+						<li>
+							<a href="https://ssd.eff.org/fr">
+								Autoprotection Digitale Contre la Surveillance
+							</a>
+							astuces, outils et guides pratiques pour des
+							communications en ligne plus sécurisées.
+						</li>
+						<li>
+							<a href="https://www.controle-tes-donnees.net/">
+								Reprennez le contrôle de vos données
+							</a>
+						</li>
+						<li>
+							<a href="https://degooglisons-internet.org/">
+								Dégooglisons Internet avec Framasoft
+							</a>
+						</li>
+					</ul>
+					<p class="lead">
+						Aidez-nous à compléter la liste et envoyez-nous vos liens !
+					</p>
+					<h2 class="text-left">
+						Documents de sensibilisation
+					</h2>
+					<ul class="lead">
+						<li>
+							<a href="https://youtu.be/fDPpzG6u-as">
+								Rien à cacher ?
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/watch?v=fzzfxmKBz2g">
+								Fate of the INTERNET
+							</a>
+						</li>
+						<li>
+							<a href="http://datalove.fr/">
+								Le principe du Datalove
+							</a>
+						</li>
+						<li>
+							<a href="http://www.arte.tv/guide/fr/062446-000-A/ils-savent-tout-de-nous?autoplay=1">
+								Ils savent tout de nous
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Contact -->
+			<div id="contact" class="row">
+				<div class=" col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
+					<h1>
+						Contactez-nous
+					</h1>
+					<p class="lead">
+						N’hésitez pas à prendre contact avec nous pour toutes
+						questions (techniques ou pas) ou demandes d’organisation.
+					</p>
+				</div>
+
+				<div class="panel panel-default col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
+					<div class="col-sm-6">
+						<p class="lead">
+							<%= image_tag 'twitter.png', alt: 'Twitter' %>
+							Suivez
+							<a href="https://twitter.com/chiffrofete">@chiffrofete</a>
+							sur Twitter
+							<br/>
+							<a href="https://twitter.com/hashtag/Chiffrof%C3%AAte?src=hash">#Chiffrofete</a>
+							//
+							<a href="https://twitter.com/hashtag/cryptoparty?src=hash">#Cryptoparty</a>
+							//
+							<a href="https://twitter.com/hashtag/cafevieprivee?src=hash">#CaféViePrivée</a>
+						</p>
+
+						<p class="lead">
+							<%= image_tag 'ical.png', alt: 'Calendrier' %>
+							Mettez-nous dans votre
+							<a href="/calendar.ics">calendrier</a>
+						</p>
+
+					</div>
+
+					<div class="col-sm-6">
+						<p class="lead">
+							<%= image_tag 'email.png', alt: 'Email' %>
+							Envoyez un mail à
+							<a href="mailto:contact@chiffrofete.fr">contact@chiffrofete.fr</a>
+							<br/>
+							(GPG: <a href="/key.asc">87F87B18 10FE3C50</a>)
+						</p>
+						<p class="lead">
+							<%= image_tag 'logo.png', alt: 'Email' %>
+							Checkez le wiki des
+							<a href="https://www.cryptoparty.in/paris" title="Le wiki des cryptoparty">
+								Cryptoparty Paris
+							</a>
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
-<%= javascript_include_tag 'application' %>
-</body>
+		<%= javascript_include_tag 'application' %>
+	</body>
 </html>

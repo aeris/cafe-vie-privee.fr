@@ -1,11 +1,12 @@
-<i>Prochains Cafés Vie Privée</i> : <%= '<em>à définir</em>' if entries.empty? %>
-<%- unless entries.empty? -%>
-<ul>
-	<%- entries.each do |entry| -%>
-	<li>
-		<%= entry.date %>,
-		<%= entry.location %>
-	</li>
-	<%- end -%>
-</ul>
+<p class="lead">
+	<em>
+		Prochains Cafés Vie Privée :
+	</em>
+</p>
+<%= '<p class="lead">À définir</p>' if entries.empty? %>
+<%- entries.each do |entry| -%>
+<p class="lead">
+	<%= entry.date %>,
+	<%= entry.location %>
+</p>
 <%- end -%>
