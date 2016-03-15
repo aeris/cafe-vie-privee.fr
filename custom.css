@@ -1,0 +1,110 @@
+
+/* debug */
+.blue {
+  background-color: blue !important;
+}
+.red {
+  background-color: red !important;
+}
+/* fin debug */
+
+body {
+  font-size: 2em;
+  background-color: white;
+  padding-top: 60px;
+  position: relative;
+  
+}
+
+h1 {
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+p.lead {
+  line-height: 2em;
+}
+
+a, a:focus, a:visited, a:hover {
+  color: #98c593;
+}
+
+a {
+  font-weight: 400;
+}
+
+strong a {
+  font-weight: 700;
+}
+
+#intro {
+  background-image: url(img/intro.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+#intro h1 {
+  color: white;
+  font-size: 4em;
+}
+
+#qui {
+  background-image: url(img/one.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#quoi {
+  background-image: url(img/two.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#comment {
+  background-image: url(img/one.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact {
+  background-color: #f5f6f7;
+}
+
+/* Partie responsive */
+
+@media (min-width: 768px) { 
+  .row {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  
+  .panel {
+    padding: 3em;
+  }
+  
+  #intro, #qui, #quoi, #comment, #contact {
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 768px) { 
+  .row {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .panel {
+    padding: 1em;
+  }
+  
+  h1 {
+    font-size: 2em !important;
+    padding-top: 1em;
+  }
+  
+  #intro h1 {
+    font-size: 3em !important;
+    padding-top: 1em;
+  }
+}
