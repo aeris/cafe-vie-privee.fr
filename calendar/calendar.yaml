@@ -383,3 +383,14 @@
       from: 14:00
       to: 19:00
   created: 2016-02-17T11:20:00+02:00
+-
+  location:
+    prefix: à
+    place: Rambouillet
+  link: https://rambouilletentransition.wordpress.com/2016/03/01/1er-ordi-libre/
+  date:
+    day: 2016-03-26
+    hour:
+      from: 10:00
+      to: 18:00
+  created: 2016-03-15T21:43:00+02:00
