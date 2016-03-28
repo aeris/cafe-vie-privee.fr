@@ -394,3 +394,25 @@
       from: 10:00
       to: 18:00
   created: 2016-03-15T21:43:00+02:00
+-
+  location:
+    prefix: à
+    place: Simplon Montreuil
+  link: http://simplon.co/
+  date:
+    day: 2016-03-19
+    hour:
+      from: 14:00
+      to: 20:00
+  created: 2016-03-16T09:55:00+02:00
+-
+  location:
+    prefix: à la
+    place: médiathèque de Saint-Germain-en-Lay
+  link: http://mediatheques.saintgermainenlaye.fr/venir.aspx?_lg=fr-FR
+  date:
+    day: 2016-04-09
+    hour:
+      from: 14:00
+      to: 19:30
+  created: 2016-03-28T12:00:00+02:00
