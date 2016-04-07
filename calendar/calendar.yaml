@@ -416,3 +416,14 @@
       from: 14:00
       to: 19:30
   created: 2016-03-28T12:00:00+02:00
+-
+  location:
+    prefix: à
+    place: la médiathèque de Choisy le Roi
+  link: http://mediatheque.choisyleroi.fr/
+  date:
+    day: 2016-04-16
+    hour:
+      from: 14:00
+      to: 16:45
+  created: 2016-04-07T11:46:00
