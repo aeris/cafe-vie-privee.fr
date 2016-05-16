@@ -30,8 +30,13 @@ end.each do |entry|
 			atom = 'le %s %02d %s %s' % [DAYS[day.wday], day.day, MONTHES[day.month], day.year]
 		when Hash
 			from, to = day['from'], day['to']
-			html = 'du %s <b>%02d</b> au %s <b>%02d %s</b> %04d' % [DAYS[from.wday], from.day, DAYS[to.wday], to.day, MONTHES[from.month], from.year]
-			atom = 'du %s %02d au %s %02d %s %04d' % [DAYS[from.wday], from.day, DAYS[to.wday], to.day, MONTHES[from.month], from.year]
+			if from.month == to.month
+				html = 'du %s <b>%02d</b> au %s <b>%02d %s</b> %04d' % [DAYS[from.wday], from.day, DAYS[to.wday], to.day, MONTHES[from.month], from.year]
+				atom = 'du %s %02d au %s %02d %s %04d' % [DAYS[from.wday], from.day, DAYS[to.wday], to.day, MONTHES[from.month], from.year]
+			else
+				html = 'du %s <b>%02d %s</b> au %s <b>%02d %s</b> %04d' % [DAYS[from.wday], from.day, MONTHES[from.month], DAYS[to.wday], to.day, MONTHES[to.month], from.year]
+				atom = 'du %s %02d %s au %s %02d %s %04d' % [DAYS[from.wday], from.day, MONTHES[from.month], DAYS[to.wday], to.day, MONTHES[to.month], from.year]
+			end
 	end
 	day = {from: from, to: to}
 
