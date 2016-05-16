@@ -427,3 +427,29 @@
       from: 14:00
       to: 16:45
   created: 2016-04-07T11:46:00
+-
+  location:
+    prefix: à l’
+    place: Ubuntu Party
+  link: http://ubuntu-paris.org/programme
+  date:
+    day:
+      from: 2016-05-28
+      to: 2016-05-29
+    hour:
+      from: 11:00
+      to: 18:00
+  created: 2016-05-16T15:22:00+02:00
+-
+  location:
+    prefix: à
+    place: Pas Sage en Seine
+  link: https://www.pseshsf.org/
+  date:
+    day:
+      from: 2016-06-30
+      to: 2016-07-03
+    hour:
+      from: 11:00
+      to: 22:00
+  created: 2016-05-16T15:23:00+02:00
