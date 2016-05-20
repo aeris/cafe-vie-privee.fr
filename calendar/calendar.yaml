@@ -453,3 +453,14 @@
       from: 11:00
       to: 22:00
   created: 2016-05-16T15:23:00+02:00
+-
+  location:
+    prefix: à
+    place: la Lingerie
+  link: http://lesgrandsvoisins.org/la-lingerie/
+  date:
+    day: 2016-05-21
+    hour:
+      from: 15:00
+      to: 18:00
+  created: 2016-05-20T17:37:00+02:00
