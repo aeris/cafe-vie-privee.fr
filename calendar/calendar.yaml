@@ -464,3 +464,14 @@
       from: 15:00
       to: 18:00
   created: 2016-05-20T17:37:00+02:00
+-
+  location:
+    prefix: à l’
+    place: espace Mendès-France de Poitiers
+  link: http://emf.fr/24181/cryptoparty/
+  date:
+    day: 2016-09-20
+    hour:
+      from: 16:00
+      to: 20:00
+  created: 2016-09-07T22:20:00+02:00
