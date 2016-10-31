@@ -486,3 +486,38 @@
       from: 14:00
       to: 18:00
   created: 2016-09-14T10:56:00+02:00
+-
+  location:
+    prefix: à la
+    place: Cité des Sciences et de l’Industrie
+  link: http://premier-samedi.org/
+  date:
+    day: 2016-11-05
+    hour:
+      from: 14:00
+      to: 18:00
+  created: 2016-09-14T10:56:00+02:00
+-
+  location:
+    prefix: au
+    place: Reset
+  link: http://lereset.org/
+  date:
+    day: 2016-11-27
+    hour:
+      from: 11:00
+      to: 17:00
+  created: 2016-11-10T17:10:00+02:00
+-
+  location:
+    prefix: à l’
+    place: Ubuntu Party
+  link: http://ubuntu-paris.org/programme
+  date:
+    day:
+      from: 2016-11-12
+      to: 2016-11-13
+    hour:
+      from: 11:00
+      to: 18:00
+  created: 2016-11-10T17:10:00+02:00
