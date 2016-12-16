@@ -521,3 +521,25 @@
       from: 11:00
       to: 18:00
   created: 2016-11-10T17:10:00+02:00
+-
+  location:
+    prefix: à l’
+    place: AlterNoël de Rambouillet
+  link: https://rambouilletentransition.wordpress.com/2016/11/22/lalter-noel-notre-journee-ciblee-0-dechets-sera-riche-en-evenements/
+  date:
+    day: 2016-12-17
+    hour:
+      from: 14:00
+      to: 17:00
+  created: 2016-12-09T17:54:00+02:00
+-
+  location:
+    prefix: à la
+    place: Bibliothèque du Chesnay
+  link: http://www.labibliothequeduchesnay.fr/
+  date:
+    day: 2017-01-28
+    hour:
+      from: 15:00
+      to: 17:30
+  created: 2016-12-09T17:55:00+02:00
