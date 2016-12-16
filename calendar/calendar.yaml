@@ -523,6 +523,17 @@
   created: 2016-11-10T17:10:00+02:00
 -
   location:
+    prefix: au
+    place: centre culturel communautaire des Cordeliers
+  link: http://4c-lons.ecla-jura.fr/agenda/mediatheque/1860-les-rencontres-numeriques-1-proteger-ses-donnees-personnelles-sur-internet
+  date:
+    day: 2016-11-26
+    hour:
+      from: 10:30
+      to: 17:30
+  created: 2016-11-21T10:19:00+02:00
+-
+  location:
     prefix: à l’
     place: AlterNoël de Rambouillet
   link: https://rambouilletentransition.wordpress.com/2016/11/22/lalter-noel-notre-journee-ciblee-0-dechets-sera-riche-en-evenements/
