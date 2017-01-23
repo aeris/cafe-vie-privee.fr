@@ -42,7 +42,7 @@ end.each do |entry|
 
 	hour = entry['date']['hour']
 	case hour
-		when Fixnum
+		when Integer
 			from, to = hour, nil
 			html += ' à partir de <b>%02d:%02d</b>' % to_hour(from)
 			atom += ' à partir de %02d:%02d' % to_hour(from)

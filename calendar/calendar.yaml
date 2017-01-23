@@ -545,12 +545,12 @@
   created: 2016-12-09T17:54:00+02:00
 -
   location:
-    prefix: à la
-    place: Bibliothèque du Chesnay
-  link: http://www.labibliothequeduchesnay.fr/
+    prefix: Méga café vie privée
+    place: un peu partout en France
+  link: https://www.laquadrature.net/fr/journee-protection-donnees-reprenons-le-controle
   date:
     day: 2017-01-28
     hour:
-      from: 15:00
-      to: 17:30
-  created: 2016-12-09T17:55:00+02:00
+      from: 14:00
+      to: 20:00
+  created: 2017-01-23T13:02:00+02:00
