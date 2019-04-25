@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:uuid:94de6d66-bc47-11e5-aa86-5bda2d727dba</id>
+  <title>Café Vie Privé</title>
+  <subtitle>Chiffrofêtes / Cafés Vie Privée organisés à Paris et ailleurs</subtitle>
+  <updated>2017-10-12T11:09:06+02:00</updated>
+  <link rel="self" type="application/atom+xml" href="https://xn--caf-vie-prive-dhbj.fr/atom.xml"/>
+  <author>
+    <name>Café Vie Privée</name>
+  </author>
+  <entry>
+    <title>Café Vie Privée à la médiathèque de Trappes le samedi 21 octobre 2017 de 14:00 à 17:00</title>
+    <id>urn:sha1:c090a83b857215e3fbaaaa573ff6f25e21817e76</id>
+    <summary>Café Vie Privée à la médiathèque de Trappes le samedi 21 octobre 2017 de 14:00 à 17:00</summary>
+    <updated>2017-10-12T11:08:00+02:00</updated>
+    <link href="https://www.agendadulibre.org/events/15553"/>
+  </entry>
+  <entry>
+    <title>Café Vie Privée au POP Place à Valenciennes le samedi 14 octobre 2017 de 14:00 à 18:00</title>
+    <id>urn:sha1:723cd93110baf6e3f1d11f322ac67f3346683759</id>
+    <summary>Café Vie Privée au POP Place à Valenciennes le samedi 14 octobre 2017 de 14:00 à 18:00</summary>
+    <updated>2017-09-18T14:00:00+02:00</updated>
+    <link href="http://pop.eu.com/popplacevalenciennes/"/>
+  </entry>
+  <entry>
+    <title>Café Vie Privée à La Station à Saint-Omer le lundi 25 septembre 2017 de 12:00 à 15:30</title>
+    <id>urn:sha1:43c1d40ebdef4e88a711fa997e3ad6fad8727203</id>
+    <summary>Café Vie Privée à La Station à Saint-Omer le lundi 25 septembre 2017 de 12:00 à 15:30</summary>
+    <updated>2017-09-02T15:19:00+02:00</updated>
+    <link href="http://pop.eu.com/lastation/"/>
+  </entry>
+  <entry>
+    <title>Café Vie Privée au POP Place à Valenciennes le jeudi 07 septembre 2017 de 18:00 à 20:00</title>
+    <id>urn:sha1:04f55c147620800dd3af45b746675f7c316c52aa</id>
+    <summary>Café Vie Privée au POP Place à Valenciennes le jeudi 07 septembre 2017 de 18:00 à 20:00</summary>
+    <updated>2017-09-02T15:19:00+02:00</updated>
+    <link href="http://pop.eu.com/popplacevalenciennes/"/>
+  </entry>
+</feed>
