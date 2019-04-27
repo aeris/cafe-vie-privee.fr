@@ -1,16 +1,18 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'middleman', '~> 3'
+gem 'middleman'
+gem 'middleman-livereload'
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
+gem 'middleman-sprockets'
 
 gem 'therubyracer'
-gem 'bootstrap-sass', '~> 3.3.6'
-gem 'middleman-jquery', '~> 2.1.1'
+gem 'sass'
+gem 'bootstrap-sass'
+gem 'middleman-jquery'
 gem 'icalendar'
 gem 'ratom'
 
-gem 'middleman-livereload'
-gem 'middleman-deploy'
 
-gem 'wdm', platforms: %i(mswin mingw)
-gem 'tzinfo-data', platforms: %i(mswin mingw)
+#gem 'wdm', platforms: %i(mswin mingw)
+#gem 'tzinfo-data', platforms: %i[mswin mingw]

@@ -9,11 +9,6 @@ task build: %i(calendar) do
 	middleman *%w(build)
 end
 
-task deploy: %i(calendar) do
-	ENV['MM_ENV'] = 'build'
-	middleman *%w(deploy)
-end
-
 task :serv do
 	middleman *%w(server --port=3000)
 end
