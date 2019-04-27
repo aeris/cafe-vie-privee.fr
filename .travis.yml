@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.6.3
+cache: bundler
+script:
+  - git config --global user.name '${GIT_NAME}'
+  - git config --global user.email '${GIT_NAME}'
+  - git remote set-url origin https://aeris:${GH_TOKEN}@github.com/cafe-vie-privee/cafe-vie-privee.fr.git
+  - make deploy
