@@ -1,0 +1,15 @@
+image: ruby:2.6
+
+cache:
+  paths:
+  - vendor
+
+pages:
+  script:
+  - bundle --deployment --without test development
+  - make gitlab-pages
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

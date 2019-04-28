@@ -97,6 +97,7 @@ end
 File.write 'source/atom.xml', atom.to_xml
 
 entries = ENTRIES[:html]
+Encoding.default_external = 'UTF-8'
 File.write 'source/_calendar.erb', ERB.new(File.read('calendar/html.erb'), nil, '-').result(binding)
 
 entries = ENTRIES[:ics]

@@ -2,10 +2,11 @@
 /.bundle/
 /.cache/
 /.sass-cache/
+/vendor/bundle/
 /build/
+/public/
 *.iml
 /deploy.yaml
-/Gemfile.lock
 .directory
 /source/_calendar.erb
 /source/atom.xml
